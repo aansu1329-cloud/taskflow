@@ -1,0 +1,80 @@
+/* TaskFlow - August TaskFlow Project - Week 6 */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f4ff;
+}
+header {
+  background: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+header h1 {
+  color: #3b82f6;
+}
+header a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: black;
+}
+header a.active {
+  color: #3b82f6;
+  font-weight: bold;
+}
+.main {
+  padding: 20px;
+}
+.hero {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 30px;
+}
+.btn {
+  background: #3b82f6;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+}
+.card {
+  background: white;
+  width: 350px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+}
+button {
+  background: #3b82f6;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+}
+.stats {
+  display: flex;
+  gap: 10px;
+}
+.stat-box {
+  background: white;
+  padding: 15px;
+  flex: 1;
+  text-align: center;
+  border-radius: 8px;
+}
+.task-list {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  list-style: none;
+  margin-top: 20px;
+}

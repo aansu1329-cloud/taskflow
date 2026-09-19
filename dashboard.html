@@ -1,32 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TaskFlow - Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <title>Dashboard - TaskFlow</title>
 </head>
 <body>
-    <header>
-        <h1>TaskFlow - Dashboard</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="dashboard.html">My Tasks</a></li>
-                <li><a href="login.html">Logout</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h2>My Tasks</h2>
-        <form>
-            <input type="text" placeholder="Add a new task..." required>
-            <button type="submit">Add Task</button>
-        </form>
-        <ul>
-            <li>Complete HTML Assignment <button>Done</button> <button>Delete</button></li>
-            <li>Study for Exams <button>Done</button> <button>Delete</button></li>
-            <li>Buy Groceries <button>Done</button> <button>Delete</button></li>
-        </ul>
-    </main>
+<header>
+  <h1>TaskFlow</h1>
+  <div>
+    <a href="index.html">Home</a>
+    <a href="dashboard.html" class="active">Dashboard</a>
+    <a href="login.html">Logout</a>
+  </div>
+</header>
+
+<div class="main">
+  <h2>My Tasks</h2>
+  <div class="stats">
+    <div class="stat-box"><p>Total Tasks</p><h3>5</h3></div>
+    <div class="stat-box"><p>Completed</p><h3>2</h3></div>
+    <div class="stat-box"><p>Pending</p><h3>3</h3></div>
+  </div>
+  <ul class="task-list">
+    <li>☐ Finish HTML project</li>
+    <li>☑️ Study CSS Box Model</li>
+    <li>☐ Push to GitHub</li>
+  </ul>
+</div>
 </body>
 </html>
